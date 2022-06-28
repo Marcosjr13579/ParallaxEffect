@@ -1,0 +1,84 @@
+/* ----- Formatações padrões ----- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+.conteudo {
+  color: #777;
+  background: #fff;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* ----- Formatações para o Efeito do Parallax ----- */
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
+}
+
+.caixa1 {
+  background: url(../imgs/imagem1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.caixa2 {
+  background: url(../imgs/imagem2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.caixa3 {
+  background: url(../imgs/imagem3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.caixa4 {
+  background: url(../imgs/imagem4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ----- Estilização dos títulos ----- */
+
+.titulo {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo span.txt-titulo {
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
